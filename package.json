@@ -1,8 +1,14 @@
 {
   "name": "pattern-tracker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amereth/pattern-tracker.git"
+  },
+  "author": "Amereth",
   "workspaces": [
     "apps/*"
   ],
+  "packageManager": "pnpm@8.15.7",
   "volta": {
     "node": "20.9.0",
     "pnpm": "8.15.7"
