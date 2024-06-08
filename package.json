@@ -5,9 +5,14 @@
     "url": "git+https://github.com/Amereth/pattern-tracker.git"
   },
   "author": "Amereth",
-  "workspaces": [
-    "apps/*"
-  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,client \"pnpm dev:server\" \"pnpm dev:client\"",
+    "dev:server": "pnpm --filter ./apps/edge-functions start",
+    "dev:client": "pnpm --filter ./apps/client dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
   "packageManager": "pnpm@8.15.7",
   "volta": {
     "node": "20.9.0",

@@ -1,0 +1,14 @@
+{
+  "name": "@pattern-tracker/schemas",
+  "description": "database schemas",
+  "main": "index.ts",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "drizzle-orm": "^0.31.0",
+    "eslint-plugin-drizzle": "^0.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}

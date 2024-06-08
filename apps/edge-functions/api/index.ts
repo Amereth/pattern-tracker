@@ -1,8 +1,6 @@
-import { verifyEnv } from '@/lib/env';
+import { db } from '@/lib/drizzle';
 import { Hono } from 'hono';
 import { handle } from 'hono/vercel';
-
-verifyEnv();
 
 export const config = {
   runtime: 'edge',
