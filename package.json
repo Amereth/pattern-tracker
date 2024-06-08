@@ -2,5 +2,9 @@
   "name": "pattern-tracker",
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "volta": {
+    "node": "20.9.0",
+    "pnpm": "8.15.7"
+  }
 }
