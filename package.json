@@ -1,7 +1,6 @@
 {
   "name": "pattern-tracker",
   "workspaces": [
-    "server",
-    "web-client"
+    "apps/*"
   ]
 }
