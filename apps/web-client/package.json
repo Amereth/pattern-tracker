@@ -17,6 +17,7 @@
   "dependencies": {
     "@pattern-tracker/schemas": "workspace:*",
     "@primevue/themes": "4.0.0-rc.1",
+    "lucide-vue-next": "^0.395.0",
     "pinia": "^2.1.7",
     "primevue": "4.0.0-rc.1",
     "vue": "^3.4.21",
