@@ -3,12 +3,12 @@
   "description": "database schemas",
   "main": "index.ts",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "@typescript-eslint/parser": "^7.12.0",
-    "drizzle-orm": "^0.31.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "drizzle-orm": "^0.31.2",
     "eslint-plugin-drizzle": "^0.2.3"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^9.5.0"
   }
 }
