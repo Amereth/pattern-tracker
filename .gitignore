@@ -34,3 +34,7 @@ test-results/
 playwright-report/
 
 .env
+.vercel
+.netlify
+.netlify/
+.vercel/

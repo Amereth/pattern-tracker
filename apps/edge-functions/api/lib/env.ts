@@ -7,12 +7,3 @@ export const verifyEnv = () => {
     throw new Error('TURSO_AUTH_TOKEN is not set');
   }
 };
-
-declare global {
-  namespace NodeJS {
-    interface ProcessEnv {
-      TURSO_DATABASE_URL: string;
-      TURSO_AUTH_TOKEN: string;
-    }
-  }
-}
