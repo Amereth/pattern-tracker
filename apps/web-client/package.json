@@ -17,11 +17,14 @@
   "dependencies": {
     "@pattern-tracker/schemas": "workspace:*",
     "@primevue/themes": "4.0.0-rc.1",
+    "@vee-validate/zod": "^4.13.1",
     "lucide-vue-next": "^0.395.0",
     "pinia": "^2.1.7",
     "primevue": "4.0.0-rc.1",
+    "vee-validate": "^4.13.1",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
