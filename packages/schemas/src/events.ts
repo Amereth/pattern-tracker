@@ -7,7 +7,9 @@ import { occurrences } from './occurrences';
 export const events = sqliteTable('events', {
   id: integer('id', { mode: 'number' }).primaryKey({ autoIncrement: true }),
   name: text('name'),
-  createdAt: text('created_at').default(sql`(CURRENT_TIMESTAMP)`),
+  createdAt: text('created_at')
+    .notNull()
+    .default(sql`(current_timestamp)`),
 });
 
 export type Event = {
