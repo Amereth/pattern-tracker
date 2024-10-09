@@ -28,6 +28,9 @@ importers:
       nuxt:
         specifier: 3.13.2
         version: 3.13.2(@libsql/client@0.14.0)(drizzle-orm@0.34.1)(vite@5.4.8)
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
       primevue:
         specifier: ^4.1.0
         version: 4.1.0(vue@3.5.11)
@@ -6546,6 +6549,10 @@ packages:
   /pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
+    dev: false
+
+  /primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
 
   /primevue@4.1.0(vue@3.5.11):
