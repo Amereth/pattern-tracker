@@ -6,13 +6,7 @@
   },
   "author": "Amereth",
   "scripts": {
-    "dev": "concurrently -k -n server,client \"pnpm dev:server\" \"pnpm dev:client\"",
-    "studio": "pnpm --filter ./apps/edge-functions studio",
-    "dev:server": "pnpm --filter ./apps/edge-functions start",
-    "dev:client": "pnpm --filter ./apps/web-client dev"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+    "dev": "cd web-app && pnpm dev"
   },
   "packageManager": "pnpm@8.15.7",
   "volta": {
