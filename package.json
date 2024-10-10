@@ -1,16 +1,16 @@
 {
-  "name": "pattern-tracker",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Amereth/pattern-tracker.git"
-  },
-  "author": "Amereth",
-  "scripts": {
-    "dev": "cd web-app && pnpm dev"
-  },
-  "packageManager": "pnpm@8.15.7",
-  "volta": {
-    "node": "20.9.0",
-    "pnpm": "8.15.7"
-  }
+	"name": "pattern-tracker",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Amereth/pattern-tracker.git"
+	},
+	"author": "Amereth",
+	"scripts": {
+		"dev": "cd ./apps/web-app && pnpm dev"
+	},
+	"packageManager": "pnpm@8.15.7",
+	"volta": {
+		"node": "20.9.0",
+		"pnpm": "8.15.7"
+	}
 }
