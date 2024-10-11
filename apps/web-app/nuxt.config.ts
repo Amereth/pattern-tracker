@@ -10,6 +10,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		'@nuxt/icon',
 		'@vueuse/nuxt',
+		'@nuxt/eslint',
 	],
 	primevue: {
 		options: {
