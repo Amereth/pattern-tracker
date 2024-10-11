@@ -5,7 +5,12 @@ export default defineNuxtConfig({
 	compatibilityDate: '2024-04-03',
 	css: ['./main.css'],
 	devtools: { enabled: true },
-	modules: ['@primevue/nuxt-module', '@nuxtjs/tailwindcss', '@nuxt/icon'],
+	modules: [
+		'@primevue/nuxt-module',
+		'@nuxtjs/tailwindcss',
+		'@nuxt/icon',
+		'@vueuse/nuxt',
+	],
 	primevue: {
 		options: {
 			ripple: false,

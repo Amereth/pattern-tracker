@@ -30,6 +30,8 @@
 	},
 	"devDependencies": {
 		"@primevue/nuxt-module": "^4.1.0",
+		"@vueuse/core": "^11.1.0",
+		"@vueuse/nuxt": "^11.1.0",
 		"autoprefixer": "^10.4.20",
 		"drizzle-kit": "^0.25.0",
 		"postcss": "^8.4.47",
