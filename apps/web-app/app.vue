@@ -21,5 +21,6 @@ const menuItems: MenuItem[] = [
   <header>
     <Menubar :model="menuItems" />
   </header>
-  <slot />
+
+  <NuxtPage />
 </template>
