@@ -1,42 +1,42 @@
 {
-	"name": "nuxt-app",
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare",
-		"db:generate": "drizzle-kit generate",
-		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
-	},
-	"dependencies": {
-		"@libsql/client": "0.14.0",
-		"@nuxt/eslint": "^0.5.7",
-		"@nuxt/icon": "^1.5.5",
-		"@nuxtjs/tailwindcss": "^6.12.1",
-		"@primevue/themes": "^4.1.0",
-		"drizzle-orm": "0.34.1",
-		"nuxt": "3.13.2",
-		"primeicons": "7.0.0",
-		"primevue": "4.1.0",
-		"vue": "3.5.11",
-		"vue-router": "4.4.5"
-	},
-	"volta": {
-		"node": "20.9.0",
-		"pnpm": "8.15.7"
-	},
-	"devDependencies": {
-		"@primevue/nuxt-module": "^4.1.0",
-		"@vueuse/core": "^11.1.0",
-		"@vueuse/nuxt": "^11.1.0",
-		"autoprefixer": "^10.4.20",
-		"drizzle-kit": "^0.25.0",
-		"postcss": "^8.4.47",
-		"tailwindcss": "^3.4.13",
-		"typescript": "^5.6.3"
-	}
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@libsql/client": "0.14.0",
+    "@nuxt/eslint": "^0.5.7",
+    "@nuxt/icon": "^1.5.5",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@primevue/themes": "^4.1.0",
+    "drizzle-orm": "0.34.1",
+    "nuxt": "3.13.2",
+    "primeicons": "7.0.0",
+    "primevue": "4.1.0",
+    "vue": "3.5.11",
+    "vue-router": "4.4.5"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "pnpm": "8.15.7"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.1.0",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.25.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  }
 }
