@@ -1,6 +1,6 @@
 import { createClient } from '@libsql/client'
 import { drizzle } from 'drizzle-orm/better-sqlite3'
-import * as schema from '../schemas'
+import * as schema from '@pattern-tracker/schemas/schema'
 
 const client = createClient({
   url: process.env.DATABASE_URL!,

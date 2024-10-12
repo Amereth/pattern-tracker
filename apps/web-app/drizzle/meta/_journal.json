@@ -8,6 +8,13 @@
       "when": 1728504554129,
       "tag": "0000_lovely_arclight",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1728762525099,
+      "tag": "0001_mighty_nick_fury",
+      "breakpoints": true
     }
   ]
 }

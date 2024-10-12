@@ -1,11 +1,9 @@
-import { sql } from 'drizzle-orm'
-import { text } from 'drizzle-orm/sqlite-core'
-import { integer, sqliteTable } from 'drizzle-orm/sqlite-core'
+import { sql, relations } from 'drizzle-orm'
+import { text, integer, sqliteTable } from 'drizzle-orm/sqlite-core'
 import { events } from './events'
-import { relations } from 'drizzle-orm'
 
 export const occurrences = sqliteTable('occurrences', {
-  id: integer('id', { mode: 'number' }).primaryKey({ autoIncrement: true }),
+  id: integer('id'),
   eventId: integer('event_id').references(() => events.id, {
     onDelete: 'cascade',
   }),
