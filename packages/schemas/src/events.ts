@@ -4,10 +4,8 @@ import { occurrences } from './occurrences'
 
 export const events = sqliteTable('events', {
   id: integer('id').primaryKey(),
-  name: text('name'),
-  createdAt: text('created_at')
-    .notNull()
-    .default(sql`(current_timestamp)`),
+  name: text('name').notNull(),
+  createdAt: text('created_at').default(sql`(current_timestamp)`),
 })
 
 export type Event = {

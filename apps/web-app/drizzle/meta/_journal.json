@@ -22,6 +22,13 @@
       "when": 1728834139857,
       "tag": "0002_violet_mandroid",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1728834938935,
+      "tag": "0003_chunky_lady_ursula",
+      "breakpoints": true
     }
   ]
 }
