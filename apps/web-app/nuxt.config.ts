@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@vueuse/nuxt',
     '@nuxt/eslint',
+    '@pinia/nuxt',
   ],
   primevue: {
     options: {
