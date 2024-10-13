@@ -1,4 +1,4 @@
-import { events } from '@pattern-tracker/schemas/src/events'
-import { occurrences } from '@pattern-tracker/schemas/src/occurrences'
+import { events } from './schemas/events'
+import { occurrences } from './schemas/occurrences'
 
 export { events, occurrences }
