@@ -15,6 +15,13 @@
       "when": 1728762525099,
       "tag": "0001_mighty_nick_fury",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1728834139857,
+      "tag": "0002_violet_mandroid",
+      "breakpoints": true
     }
   ]
 }

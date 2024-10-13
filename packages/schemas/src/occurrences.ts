@@ -3,7 +3,7 @@ import { text, integer, sqliteTable } from 'drizzle-orm/sqlite-core'
 import { events } from './events'
 
 export const occurrences = sqliteTable('occurrences', {
-  id: integer('id'),
+  id: integer('id').primaryKey(),
   eventId: integer('event_id').references(() => events.id, {
     onDelete: 'cascade',
   }),
