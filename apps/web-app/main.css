@@ -1,1 +1,5 @@
 @import 'primeicons/primeicons.css';
+
+#__nuxt {
+  height: 100vh;
+}

@@ -5,8 +5,10 @@ import drizzle from 'eslint-plugin-drizzle'
 export default withNuxt()
   .overrideRules({
     'vue/no-multiple-template-root': 'off',
+    'no-unused-vars': 'warn',
   })
   .prepend({
-    extends: [drizzle],
+    extends: [{ drizzle }],
   })
+
 // Your custom configs here

@@ -1,6 +1,6 @@
 import { relations, sql } from 'drizzle-orm'
 import { text, integer, sqliteTable } from 'drizzle-orm/sqlite-core'
-import { occurrences } from './occurrences'
+import { Occurrence, occurrences } from './occurrences'
 
 export const events = sqliteTable('events', {
   id: integer('id').primaryKey(),
@@ -12,6 +12,7 @@ export type Event = {
   id: number
   name: string
   createdAt: string
+  occurrences: Occurrence[]
 }
 
 export const eventRelations = relations(events, ({ many }) => ({

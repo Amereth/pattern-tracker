@@ -1,4 +1,5 @@
 import Aura from '@primevue/themes/aura'
+import ToastService from 'primevue/toastservice'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({

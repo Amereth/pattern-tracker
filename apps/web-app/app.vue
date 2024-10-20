@@ -1,16 +1,26 @@
 <script setup lang="ts">
 import Menubar from 'primevue/menubar'
 import type { MenuItem } from 'primevue/menuitem'
+import EditEventDrawer from '~/features/events/components/EditEventDrawer.vue'
+import { useDrawerStore } from '~/stores/drawerStore'
+import Toast from 'primevue/toast'
+
+const drawer = useDrawerStore()
 
 const menuItems: MenuItem[] = [
   {
-    label: 'Events',
+    label: 'events',
     icon: 'pi pi-check-circle',
     items: [
       {
-        label: 'Add Event',
+        label: 'view',
+        icon: 'pi pi-check-circle',
+        command: () => navigateTo('/events'),
+      },
+      {
+        label: 'create',
         icon: 'pi pi-plus',
-        command: () => navigateTo('/add-event'),
+        command: () => drawer.openDrawer('events/create'),
       },
     ],
   },
@@ -21,6 +31,10 @@ const menuItems: MenuItem[] = [
   <header>
     <Menubar :model="menuItems" />
   </header>
+
+  <EditEventDrawer />
+
+  <Toast />
 
   <NuxtPage />
 </template>
